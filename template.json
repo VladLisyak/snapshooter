@@ -1,0 +1,1473 @@
+{
+  "dashboard": {
+    "annotations": {
+      "list": []
+    },
+    "editable": false,
+    "gnetId": null,
+    "graphTooltip": 1,
+    "hideControls": false,
+    "id": 2,
+    "links": [],
+    "refresh": false,
+    "rows": [
+      {
+        "collapse": false,
+        "height": -5227,
+        "panels": [
+          {
+            "cacheTimeout": null,
+            "colorBackground": false,
+            "colorValue": false,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "datasource": null,
+            "decimals": null,
+            "format": "none",
+            "gauge": {
+              "maxValue": 100,
+              "minValue": 0,
+              "show": false,
+              "thresholdLabels": false,
+              "thresholdMarkers": true
+            },
+            "height": "150 px",
+            "id": 3,
+            "interval": "",
+            "links": [],
+            "mappingType": 1,
+            "mappingTypes": [
+              {
+                "name": "value to text",
+                "value": 1
+              },
+              {
+                "name": "range to text",
+                "value": 2
+              }
+            ],
+            "maxDataPoints": 100,
+            "nullPointMode": "connected",
+            "nullText": null,
+            "postfix": "",
+            "postfixFontSize": "50%",
+            "prefix": "",
+            "prefixFontSize": "50%",
+            "rangeMaps": [
+              {
+                "from": "null",
+                "text": "N/A",
+                "to": "null"
+              }
+            ],
+            "span": 2,
+            "sparkline": {
+              "fillColor": "rgba(31, 118, 189, 0.18)",
+              "full": false,
+              "lineColor": "rgb(31, 120, 193)",
+              "show": false
+            },
+            "targets": [],
+            "thresholds": "",
+            "timeFrom": null,
+            "timeShift": null,
+            "title": "Total request count",
+            "transparent": false,
+            "type": "singlestat",
+            "valueFontSize": "80%",
+            "valueMaps": [
+              {
+                "op": "=",
+                "text": "N/A",
+                "value": "null"
+              }
+            ],
+            "valueName": "current"
+          },
+          {
+            "cacheTimeout": null,
+            "colorBackground": false,
+            "colorValue": false,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "datasource": null,
+            "decimals": null,
+            "format": "none",
+            "gauge": {
+              "maxValue": 100,
+              "minValue": 0,
+              "show": false,
+              "thresholdLabels": false,
+              "thresholdMarkers": true
+            },
+            "height": "150 px",
+            "id": 4,
+            "interval": "",
+            "links": [],
+            "mappingType": 1,
+            "mappingTypes": [
+              {
+                "name": "value to text",
+                "value": 1
+              },
+              {
+                "name": "range to text",
+                "value": 2
+              }
+            ],
+            "maxDataPoints": 100,
+            "nullPointMode": "connected",
+            "nullText": null,
+            "postfix": "",
+            "postfixFontSize": "50%",
+            "prefix": "",
+            "prefixFontSize": "50%",
+            "rangeMaps": [
+              {
+                "from": "null",
+                "text": "N/A",
+                "to": "null"
+              }
+            ],
+            "span": 2,
+            "sparkline": {
+              "fillColor": "rgba(31, 118, 189, 0.18)",
+              "full": false,
+              "lineColor": "rgb(31, 120, 193)",
+              "show": false
+            },
+            "targets": [],
+            "thresholds": "0",
+            "timeFrom": null,
+            "title": "Total failed requests count",
+            "transparent": false,
+            "type": "singlestat",
+            "valueFontSize": "80%",
+            "valueMaps": [
+              {
+                "op": "=",
+                "text": "N/A",
+                "value": "null"
+              }
+            ],
+            "valueName": "current"
+          },
+          {
+            "cacheTimeout": null,
+            "colorBackground": false,
+            "colorValue": false,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "datasource": null,
+            "decimals": null,
+            "format": "none",
+            "gauge": {
+              "maxValue": 100,
+              "minValue": 0,
+              "show": false,
+              "thresholdLabels": false,
+              "thresholdMarkers": true
+            },
+            "height": "150 px",
+            "id": 5,
+            "interval": "",
+            "links": [],
+            "mappingType": 1,
+            "mappingTypes": [
+              {
+                "name": "value to text",
+                "value": 1
+              },
+              {
+                "name": "range to text",
+                "value": 2
+              }
+            ],
+            "maxDataPoints": 100,
+            "nullPointMode": "connected",
+            "nullText": null,
+            "postfix": " req/sec",
+            "postfixFontSize": "50%",
+            "prefix": "",
+            "prefixFontSize": "50%",
+            "rangeMaps": [
+              {
+                "from": "null",
+                "text": "N/A",
+                "to": "null"
+              }
+            ],
+            "span": 2,
+            "sparkline": {
+              "fillColor": "rgba(31, 118, 189, 0.18)",
+              "full": false,
+              "lineColor": "rgb(31, 120, 193)",
+              "show": false
+            },
+            "targets": [],
+            "thresholds": "",
+            "timeFrom": null,
+            "title": "Throughput",
+            "transparent": false,
+            "type": "singlestat",
+            "valueFontSize": "80%",
+            "valueMaps": [
+              {
+                "op": "=",
+                "text": "N/A",
+                "value": "null"
+              }
+            ],
+            "valueName": "current"
+          },
+          {
+            "cacheTimeout": null,
+            "colorBackground": false,
+            "colorValue": false,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "datasource": null,
+            "decimals": null,
+            "format": "ms",
+            "gauge": {
+              "maxValue": 100,
+              "minValue": 0,
+              "show": false,
+              "thresholdLabels": false,
+              "thresholdMarkers": true
+            },
+            "height": "150 px",
+            "id": 6,
+            "interval": ">6h",
+            "links": [],
+            "mappingType": 1,
+            "mappingTypes": [
+              {
+                "name": "value to text",
+                "value": 1
+              },
+              {
+                "name": "range to text",
+                "value": 2
+              }
+            ],
+            "maxDataPoints": 100,
+            "nullPointMode": "connected",
+            "nullText": null,
+            "postfix": "",
+            "postfixFontSize": "50%",
+            "prefix": "",
+            "prefixFontSize": "50%",
+            "rangeMaps": [
+              {
+                "from": "null",
+                "text": "N/A",
+                "to": "null"
+              }
+            ],
+            "span": 2,
+            "sparkline": {
+              "fillColor": "rgba(31, 118, 189, 0.18)",
+              "full": false,
+              "lineColor": "rgb(31, 120, 193)",
+              "show": false
+            },
+            "targets": [],
+            "thresholds": "",
+            "timeFrom": null,
+            "title": "Min",
+            "transparent": false,
+            "type": "singlestat",
+            "valueFontSize": "80%",
+            "valueMaps": [
+              {
+                "op": "=",
+                "text": "N/A",
+                "value": "null"
+              }
+            ],
+            "valueName": "current"
+          },
+          {
+            "cacheTimeout": null,
+            "colorBackground": false,
+            "colorValue": false,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "datasource": null,
+            "decimals": null,
+            "format": "ms",
+            "gauge": {
+              "maxValue": 100,
+              "minValue": 0,
+              "show": false,
+              "thresholdLabels": false,
+              "thresholdMarkers": true
+            },
+            "height": "150 px",
+            "id": 7,
+            "interval": "",
+            "links": [],
+            "mappingType": 1,
+            "mappingTypes": [
+              {
+                "name": "value to text",
+                "value": 1
+              },
+              {
+                "name": "range to text",
+                "value": 2
+              }
+            ],
+            "maxDataPoints": 100,
+            "nullPointMode": "connected",
+            "nullText": null,
+            "postfix": "",
+            "postfixFontSize": "50%",
+            "prefix": "",
+            "prefixFontSize": "50%",
+            "rangeMaps": [
+              {
+                "from": "null",
+                "text": "N/A",
+                "to": "null"
+              }
+            ],
+            "span": 2,
+            "sparkline": {
+              "fillColor": "rgba(31, 118, 189, 0.18)",
+              "full": false,
+              "lineColor": "rgb(31, 120, 193)",
+              "show": false
+            },
+            "targets": [],
+            "thresholds": "",
+            "timeFrom": null,
+            "title": "Median",
+            "transparent": false,
+            "type": "singlestat",
+            "valueFontSize": "80%",
+            "valueMaps": [
+              {
+                "op": "=",
+                "text": "N/A",
+                "value": "null"
+              }
+            ],
+            "valueName": "current"
+          },
+          {
+            "cacheTimeout": null,
+            "colorBackground": false,
+            "colorValue": false,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "datasource": null,
+            "decimals": null,
+            "format": "ms",
+            "gauge": {
+              "maxValue": 100,
+              "minValue": 0,
+              "show": false,
+              "thresholdLabels": false,
+              "thresholdMarkers": true
+            },
+            "height": "150 px",
+            "id": 8,
+            "interval": "",
+            "links": [],
+            "mappingType": 1,
+            "mappingTypes": [
+              {
+                "name": "value to text",
+                "value": 1
+              },
+              {
+                "name": "range to text",
+                "value": 2
+              }
+            ],
+            "maxDataPoints": 100,
+            "nullPointMode": "connected",
+            "nullText": null,
+            "postfix": "",
+            "postfixFontSize": "50%",
+            "prefix": "",
+            "prefixFontSize": "50%",
+            "rangeMaps": [
+              {
+                "from": "null",
+                "text": "N/A",
+                "to": "null"
+              }
+            ],
+            "span": 2,
+            "sparkline": {
+              "fillColor": "rgba(31, 118, 189, 0.18)",
+              "full": false,
+              "lineColor": "rgb(31, 120, 193)",
+              "show": false
+            },
+            "targets": [],
+            "thresholds": "",
+            "timeFrom": null,
+            "title": "95th percentile",
+            "transparent": false,
+            "type": "singlestat",
+            "valueFontSize": "80%",
+            "valueMaps": [
+              {
+                "op": "=",
+                "text": "N/A",
+                "value": "null"
+              }
+            ],
+            "valueName": "avg"
+          },
+          {
+            "aliasColors": {
+              "active users": "#7EB26D",
+              "all requests %(calculation)s": "#ffdb4d"
+            },
+            "bars": false,
+            "datasource": null,
+            "fill": 1,
+            "height": "350px",
+            "id": 9,
+            "legend": {
+              "alignAsTable": false,
+              "avg": false,
+              "current": false,
+              "max": false,
+              "min": false,
+              "rightSide": false,
+              "show": true,
+              "total": false,
+              "values": false
+            },
+            "lines": true,
+            "linewidth": 1,
+            "links": [],
+            "nullPointMode": "null",
+            "percentage": false,
+            "pointradius": 5,
+            "points": false,
+            "renderer": "flot",
+            "seriesOverrides": [
+              {
+                "alias": "users.mean",
+                "yaxis": 2
+              },
+              {
+                "alias": "active users",
+                "fill": 0,
+                "yaxis": 2
+              }
+            ],
+            "span": 12,
+            "stack": false,
+            "steppedLine": false,
+            "targets": [],
+            "thresholds": [],
+            "timeFrom": null,
+            "timeShift": null,
+            "title": "Response Times over time ($req_status)",
+            "tooltip": {
+              "shared": false,
+              "sort": 0,
+              "value_type": "individual"
+            },
+            "type": "graph",
+            "xaxis": {
+              "mode": "time",
+              "name": null,
+              "show": true,
+              "values": [
+                "total"
+              ]
+            },
+            "yaxes": [
+              {
+                "format": "ms",
+                "label": "Response time ",
+                "logBase": 1,
+                "max": null,
+                "min": "0",
+                "show": true
+              },
+              {
+                "format": "short",
+                "label": "Active Users",
+                "logBase": 1,
+                "max": null,
+                "min": "0",
+                "show": true
+              }
+
+            ]
+          },
+          {
+            "aliasColors": {
+              "active users": "#6ED0E0",
+              "ko requests": "#BF1B00",
+              "ok requests": "#7EB26D"
+            },
+            "bars": false,
+            "datasource": null,
+            "fill": 1,
+            "height": "350px",
+            "id": 10,
+            "legend": {
+              "alignAsTable": false,
+              "avg": false,
+              "current": false,
+              "max": false,
+              "min": false,
+              "show": true,
+              "total": false,
+              "values": false
+            },
+            "lines": true,
+            "linewidth": 1,
+            "links": [],
+            "nullPointMode": "null",
+            "percentage": false,
+            "pointradius": 5,
+            "points": false,
+            "renderer": "flot",
+            "seriesOverrides": [
+              {
+                "alias": "users.mean",
+                "yaxis": 2
+              },
+              {
+                "alias": "active users",
+                "fill": 0,
+                "yaxis": 2
+              },
+              {
+                "alias": "ok requests",
+                "bars": true,
+                "lines": false,
+                "stack": true
+              },
+              {
+                "alias": "ko requests",
+                "bars": true,
+                "lines": false,
+                "stack": true
+              }
+            ],
+            "span": 12,
+            "stack": false,
+            "steppedLine": false,
+            "targets": [],
+            "thresholds": [],
+            "timeFrom": null,
+            "timeShift": null,
+            "title": "Throughput",
+            "tooltip": {
+              "shared": true,
+              "sort": 0,
+              "value_type": "individual"
+            },
+            "type": "graph",
+            "xaxis": {
+              "mode": "time",
+              "name": null,
+              "show": true,
+              "values": []
+            },
+            "yaxes": [
+              {
+                "format": "none",
+                "label": "Requests per second",
+                "logBase": 1,
+                "max": null,
+                "min": "0",
+                "show": true
+              },
+              {
+                "format": "short",
+                "label": "Active Users",
+                "logBase": 1,
+                "max": null,
+                "min": "0",
+                "show": true
+              }
+            ]
+          },
+          {
+            "aliasColors": {
+              "t > %(high_limit)s ms": "#C15C17",
+              "%(low_limit)s < t < %(high_limit)s": "#ffad33",
+              "t < %(low_limit)s ms": "#7EB26D",
+              "failed": "#BF1B00"
+            },
+            "bars": true,
+            "datasource": null,
+            "fill": 1,
+            "height": "360px",
+            "id": 11,
+            "interval": "",
+            "legend": {
+              "alignAsTable": true,
+              "avg": false,
+              "current": false,
+              "hideEmpty": false,
+              "hideZero": false,
+              "max": false,
+              "min": false,
+              "rightSide": true,
+              "show": true,
+              "total": true,
+              "values": true
+            },
+            "lines": false,
+            "linewidth": 1,
+            "links": [],
+            "nullPointMode": "null",
+            "percentage": false,
+            "pointradius": 5,
+            "points": false,
+            "renderer": "flot",
+            "seriesOverrides": [
+              {
+                "alias": "t > $high_limit ms",
+                "color": "#E24D42"
+              },
+              {
+                "alias": "failed",
+                "color": "#BF1B00"
+              }
+            ],
+            "span": 6,
+            "stack": false,
+            "steppedLine": false,
+            "targets": [],
+            "thresholds": [],
+            "timeFrom": null,
+            "timeShift": null,
+            "title": "Response time distribution",
+            "tooltip": {
+              "shared": false,
+              "sort": 0,
+              "value_type": "individual"
+            },
+            "type": "graph",
+            "xaxis": {
+              "mode": "series",
+              "name": null,
+              "show": true,
+              "values": [
+                "total"
+              ]
+            },
+            "yaxes": [
+              {
+                "format": "short",
+                "label": "Request count",
+                "logBase": 1,
+                "max": null,
+                "min": null,
+                "show": true
+              },
+              {
+                "format": "short",
+                "label": "",
+                "logBase": 1,
+                "max": null,
+                "min": null,
+                "show": true
+              }
+            ]
+          },
+          {
+            "aliasColors": {},
+            "bars": false,
+            "bucketMode": "size",
+            "bucketSize": "100",
+            "datasource": null,
+            "fill": 1,
+            "grid": {
+              "threshold1": null,
+              "threshold1Color": "rgba(216, 200, 27, 0.27)",
+              "threshold2": null,
+              "threshold2Color": "rgba(234, 112, 112, 0.22)"
+            },
+            "height": "360 px",
+            "id": 12,
+            "interval": "",
+            "legend": {
+              "alignAsTable": true,
+              "avg": false,
+              "current": false,
+              "max": false,
+              "min": false,
+              "show": true,
+              "total": false,
+              "values": false
+            },
+            "lines": true,
+            "linewidth": 2,
+            "links": [],
+            "maxValue": "",
+            "minValue": "0",
+            "nullPointMode": "null",
+            "percentage": false,
+            "pointradius": 5,
+            "points": false,
+            "renderer": "flot",
+            "seriesOverrides": [
+              {
+                "alias": "/.*/",
+                "color": "#7EB26D"
+              }
+            ],
+            "span": 6,
+            "stack": false,
+            "steppedLine": false,
+            "targets": [],
+            "timeFrom": null,
+            "timeShift": null,
+            "title": "Response time distribution",
+            "tooltip": {
+              "msResolution": true,
+              "ordering": "alphabetical",
+              "shared": true,
+              "value_type": "individual"
+            },
+            "type": "mtanda-histogram-panel",
+            "xaxis": {
+              "show": true
+            },
+            "yaxes": [
+              {
+                "format": "short",
+                "label": null,
+                "logBase": 1,
+                "max": null,
+                "min": null,
+                "show": true
+              },
+              {
+                "format": "short",
+                "label": null,
+                "logBase": 1,
+                "max": null,
+                "min": null,
+                "show": true
+              }
+            ]
+          }
+        ],
+        "repeat": null,
+        "repeatIteration": null,
+        "repeatRowId": null,
+        "showTitle": true,
+        "title": "Overall results",
+        "titleSize": "h6"
+      },
+      {
+        "collapse": false,
+        "height": 250,
+        "panels": [
+          {
+            "content": "<script>\n//table sorter logic\n(function(c){c.fn.stupidtable=function(b){return this.each(function(){var a=c(this);b=b||{};b=c.extend({},c.fn.stupidtable.default_sort_fns,b);a.data(\"sortFns\",b);a.on(\"click.stupidtable\",\"thead th\",function(){c(this).stupidsort()})})};c.fn.stupidsort=function(b){var a=c(this),g=0,f=c.fn.stupidtable.dir,e=a.closest(\"table\"),k=a.data(\"sort\")||null;if(null!==k){a.parents(\"tr\").find(\"th\").slice(0,c(this).index()).each(function(){var a=c(this).attr(\"colspan\")||1;g+=parseInt(a,10)});var d;1==arguments.length?\nd=b:(d=b||a.data(\"sort-default\")||f.ASC,a.data(\"sort-dir\")&&(d=a.data(\"sort-dir\")===f.ASC?f.DESC:f.ASC));if(a.data(\"sort-dir\")!==d)return a.data(\"sort-dir\",d),e.trigger(\"beforetablesort\",{column:g,direction:d}),e.css(\"display\"),setTimeout(function(){var b=[],l=e.data(\"sortFns\")[k],h=e.children(\"tbody\").children(\"tr\");h.each(function(a,d){var e=c(d).children().eq(g),f=e.data(\"sort-value\");\"undefined\"===typeof f&&(f=e.text(),e.data(\"sort-value\",f));b.push([f,d])});b.sort(function(a,b){return l(a[0],\nb[0])});d!=f.ASC&&b.reverse();h=c.map(b,function(a){return a[1]});e.children(\"tbody\").append(h);e.find(\"th\").data(\"sort-dir\",null).removeClass(\"sorting-desc sorting-asc\");a.data(\"sort-dir\",d).addClass(\"sorting-\"+d);e.trigger(\"aftertablesort\",{column:g,direction:d});e.css(\"display\")},10),a}};c.fn.updateSortVal=function(b){var a=c(this);a.is(\"[data-sort-value]\")&&a.attr(\"data-sort-value\",b);a.data(\"sort-value\",b);return a};c.fn.stupidtable.dir={ASC:\"asc\",DESC:\"desc\"};c.fn.stupidtable.default_sort_fns=\n{\"int\":function(b,a){return parseInt(b,10)-parseInt(a,10)},\"float\":function(b,a){return parseFloat(b)-parseFloat(a)},string:function(b,a){return b.toString().localeCompare(a.toString())},\"string-ins\":function(b,a){b=b.toString().toLocaleLowerCase();a=a.toString().toLocaleLowerCase();return b.localeCompare(a)}}})(jQuery);\n\nfunction addTableSort(n){var r=function(n,r){return r>n?\"\"==n?1:-1:n>r?\"\"==r?-1:1:0},a=function(n,r){return r>n?1:n>r?-1:0};n.stupidtable({moveBlanks:r,moveBlanksDesc:a}),n.on(\"aftertablesort\",function(n,r){var a=$(this).find(\"th\");a.find(\".arrow\").remove();var t=$.fn.stupidtable.dir,e=r.direction===t.ASC?\"&uarr;\":\"&darr;\";a.eq(r.column).append('<span class=\"arrow\">'+e+\"</span>\")})}\n//work with time interval \nfunction formatTime(time){\n  if(time.includes(\"now\")){\n    time = time.replace(\"now\",\"now()\");\n    time = time.replace(\"-\",\" - \");\n    time = time.replace(\"/\",\" / \");\n  }else{\n    time = time + \"ms\";\n  }\n    return time;\n}\n\nfunction getFromTime(timeObj){\n  var from;\n  if(typeof timeObj.from == \"string\"){\n    from = timeObj.from;\n  }else{\n    from = timeObj.from._d.getTime().toString();\n  }\n return formatTime(from);\n}\n\nfunction getToTime(timeObj){\n  var to;\n  if(typeof timeObj.to == \"string\"){\n    to = timeObj.to;\n  }else{\n    to = timeObj.to._d.getTime().toString();\n  }\n  return formatTime(to);\n}\n\nfunction getTimeFilter(){\n  var time = angular.element('grafana-app').injector().get('timeSrv').time;\n  var from = getFromTime(time);\n  var to = getToTime(time);\n  var timeFilter = 'time > ' + from +' AND time < ' + to;\n\n  return timeFilter;\n}\n\n//template vars extraction\nfunction getTemplateVar(varName){\n  var templateVars = angular.element('dashboard-submenu').injector().get('variableSrv').variables;\n    for (var i = 0; i < templateVars.length; i++) {\n        var tVar = templateVars[i];\n        if( tVar.name == varName){\n          return tVar;\n        } \n       }        \n  return null;\n}\n//get selected request status\nfunction getRequestStatus (){\n  return getTemplateVar('req_status').current.value;\n}\n//get selected simulation\nfunction getSimulationName (){\n  return getTemplateVar('simulation').current.value;\n}\n//get selected test types \nfunction getTestType(){\n  var testTypeObj = getTemplateVar('test_type');\n  var res = [];\n  var currentOption = (testTypeObj.current.value instanceof Array) ? testTypeObj.current.value[0] : testTypeObj.current.value;\n  if(currentOption == '$__all'){\n      var options = testTypeObj.options;\n      for(var i = 1; i < options.length; i++){res.push(options[i].text);}\n  }else if(testTypeObj.current.value instanceof Array){\n      var values = testTypeObj.current.value;\n      for(var i = 0; i < values.length; i++){res.push(values[i]);}\n  }else{res.push(currentOption);}\n \n  return res;\n}\n//get user count\nfunction getUserCount(){\n  var userCountObj = getTemplateVar('user_count');\n  var res = [];\n  var currentOption = (userCountObj.current.value instanceof Array) ? userCountObj.current.value[0] : userCountObj.current.value;\n  if(currentOption == '$__all'){\n    return res;\n  }else if(userCountObj.current.value instanceof Array){ \n    var values = userCountObj.current.value;\n    for(var i = 0; i < values.length; i++){res.push(values[i]);}\n  }else{res.push(currentOption);}\n  \n  return res;\n}\n\nfunction getEnvs(){\n  var envObj = getTemplateVar('env');\n  var res = [];\n  var currentOption = (envObj.current.value instanceof Array) ? envObj.current.value[0] : envObj.current.value;\n  if(currentOption == '$__all'){\n    return res;\n  }else if(envObj.current.value instanceof Array){ \n    var values = envObj.current.value;\n    for(var i = 0; i < values.length; i++){res.push(values[i]);}\n  }else{res.push(currentOption);}\n  \n  return res;\n}\n//generate query \nfunction generateQuery(queryType){\n  var AND  = ' AND '\n  var WHERE = ' WHERE '\n  var GROUP_BY = ' GROUP BY request_name'\n  var query;\n  var timeFilter = getTimeFilter();\n  var requestStatus = getRequestStatus();\n  var testType = getTestType();\n  var simulation  =  getSimulationName();\n  var userCount = getUserCount();\n  var envs = getEnvs();\n\n    function appendTestTypeValues(arr){\n      var result = ''\n      for (var i = 0; i < arr.length; i++){\n        result += arr[i];\n        if(i+1 < arr.length){\n          result += ',';\n        }   \n      }\n      return result;\n     }\n    function appendValues(name,arr){\n      var result;\n      if(arr.length ==0){\n        result = '';\n      }else if (arr.length == 1){\n        result = name +'= \\'' + arr[0] + '\\' ';\n        result+=AND;\n      }else{\n        result = name +'=~ /^(';\n        for (var i = 0; i < arr.length-1; i++){\n            result += (arr[i] + '|');    \n        }\n        result+=(arr[arr.length-1]+ ')$/ ');\n        result+=AND;\n      }\n      return result;\n    }\n\n    // function appendUserCountValues(arr){\n    //   var result;\n    //   if(arr.length ==0){\n    //     result = '';\n    //   }else if (arr.length == 1){\n    //     result = ' user_count= \\'' + arr[0] + '\\' ';\n    //     result+=AND;\n    //   }else{\n    //     result = ' user_count=~ /^(';\n    //     for (var i = 0; i < arr.length-1; i++){\n    //         result += (arr[i] + '|');    \n    //     }\n    //     result+=(arr[arr.length-1]+ ')$/ ');\n    //     result+=AND;\n    //   }\n    //   return result;\n    // }\n  \n  testTypes = appendTestTypeValues(testType);\n  environments = appendValues('env',envs)\n  userCounts = appendValues('user_count',userCount)//appendUserCountValues(userCount);\n  simulation = ' simulation=\\'' + simulation + '\\'';\n  requestStatus = ' status= \\'' + requestStatus + '\\' '\n  if(queryType == 'total'){\n    query = 'SELECT SUM(count) AS \"total\" FROM ' + testTypes + WHERE + simulation + AND + userCounts + environments + 'status= \\'all\\'' + AND +  timeFilter + GROUP_BY;\n  }else if(queryType == 'ok'){\n    query = 'SELECT SUM(count) AS \"ok\" FROM ' + testTypes + WHERE + simulation + AND + userCounts + environments + 'status= \\'ok\\'' + AND + timeFilter + GROUP_BY;\n  }else{//substitute selected request status\n    query = 'SELECT MEAN(count) AS \"rps\", MIN(min) AS \"min\", MEDIAN(mean) AS \"median\", MEAN(mean) AS \"average\", MAX(max) AS \"max\", STDDEV(mean) AS \"stddev\", PERCENTILE(mean,75) AS \"perc75\", PERCENTILE(mean,95) AS \"perc95\", PERCENTILE(mean,99) AS \"perc99\" FROM ' + \n      testTypes + WHERE + simulation + AND + userCounts + environments + requestStatus + AND +  timeFilter + GROUP_BY;\n  }\n\n  return query;\n}\n\nfunction parseResponse(series){\n  if(series != undefined ){\n    for(var i = 0; i < series.length; i++){\n      var serie = series[i];\n      var requestName = serie.tags.request_name;\n      var columns = serie.columns;\n      var values = serie.values[0];\n\n        for(var j = 1; j < columns.length; j++){\n          value = values[j]\n          column = columns[j]\n          if(value != null){\n            var cellId = requestName + '_' + column;\n            var cell = $('#' + cellId)\n              if (column == 'rps'){\n                value = parseFloat(value).toFixed(ROUND_FLOAT_FACTOR)\n              }else if(TABLE_TIME_EPOCH == 's'){\n                  if (column != 'total' & column != 'ok'){\n                      assignRTCellStyle(cell,value);\n                      value = parseFloat(value/1000).toFixed(ROUND_FLOAT_FACTOR);\n                  }\n              }else  {\n                value = parseInt(value);\n              }\n              cell.text(value);\n          }\n        }\n    }\n  }\n}\n\nfunction assignRTCellStyle(cell,value){\n  if(value > HIGHER_RT_TRESHOLD){\n      cell.attr(\"id\",\"red\");\n  }else if(value < LOWER_RT_TRESHOLD){\n      cell.attr(\"id\",\"green\");\n  }else{\n      cell.attr(\"id\",\"yellow\");\n  }\n}\nfunction assignErrorCellStyle(cellKO,cellKOPerc,value){\n  if(value == 0){\n      cellKOPerc.attr(\"id\",\"green\");\n      cellKO.attr(\"id\",\"green\");\n  }else if(value >= ERROR_PERC_TRESHOLD){\n      cellKOPerc.attr(\"id\",\"red\");\n      cellKO.attr(\"id\",\"red\");\n  }else{\n      cellKOPerc.attr(\"id\",\"yellow\");\n      cellKO.attr(\"id\",\"yellow\");\n  }\n}\n\nfunction getRequestNames(series){\n if(series != undefined ){\n    let set = new Set();\n     for(var i = 0; i < series.length; i++){\n      set.add(series[i].tags.request_name);\n      }\n    return Array.from(set.values());\n  }\n}\n\n//send queries \nfunction getAllMetrics(query){\n  $.get(DB_URL, { q: query, db: DB_NAME, epoch: EPOCH},\n    function(data, status){\n          if(status == 'success'){\n            var series = data.results[0].series\n              if(typeof series == 'undefined'){\n                showErrMessage(\"No datapoints in selected time range. Try to change filter parameters.\")\n              }else{\n                parseResponse(series);\n              }\n          }else{\n            showErrMessage(\"Error occured during quering data. Check your datasource settings.\")\n          }\n      });\n}\n\nfunction getOkMetrics(queryOK,queryTotal,queryALL){\n  $.get(DB_URL, { q: queryOK, db: DB_NAME, epoch: EPOCH},\n    function(data, status){\n          if(status == 'success'){\n            var series = data.results[0].series\n              if(typeof series == 'undefined'){\n                showErrMessage(\"No datapoints in selected time range. Try to change filter parameters.\");\n              }else{\n                requestNames = getRequestNames(series);\n                generateTable(requestNames);\n                getTotalMetrics(queryTotal,queryALL)\n                parseResponse(series);\n              }\n          }else{\n            showErrMessage(\"Error occured during quering data. Check your datasource settings.\")\n          }\n      });\n}\nfunction getTotalMetrics(queryTotal,queryALL){\n  $.get(DB_URL, { q: queryTotal, db: DB_NAME, epoch: EPOCH},\n    function(data, status){\n          if(status == 'success'){\n            var series = data.results[0].series\n              if(typeof series == 'undefined'){\n                showErrMessage(\"No datapoints in selected time range. Try to change filter parameters.\");\n              }else{\n                getAllMetrics(queryALL);\n                parseResponse(series);\n                countKOMetrics();\n              }\n          }else{\n            showErrMessage(\"Error occured during quering data. Check your datasource settings.\")\n          }\n      });\n}\n\nfunction countKOMetrics(){\n  var res = $('[id$=\"_ok\"]');\n  for (var i = 0; i < res.length; i++){\n    var id = res[i].id;\n    var request_name = id.substring(0, id.length -2);\n    var koPercCell = $('#' + request_name + 'ko_perc')\n    var koCell = $('#' + request_name + 'ko')\n    var okValue = parseInt(res[i].textContent);\n    var totalValue = $('#' + request_name + 'total')[0].textContent;\n    var koValue = totalValue - okValue;\n    var kopercValue = 0\n    if(koValue > 0){\n      kopercValue = ((100 * koValue) / totalValue).toFixed(2);\n    }\n    assignErrorCellStyle(koPercCell,koCell,kopercValue);\n    koPercCell.text(kopercValue);\n    koCell.text(koValue);\n  }\n}\n\n//work with summary table\nfunction emptySummaryTable(){\n   $(\"#summary\").empty();\n}\n\nfunction generateTable(requestNames){\n  emptySummaryTable();\n  var table = $('<table>');\n  addTableSort(table);\n  table.attr(\"id\",\"summary-table\");\n  table.append(generateTableHead());\n  table.append(generateTableBody (requestNames));\n \n  $('#summary').append(table);\n  $('#summary-table-body tr').click(function(e) {\n    if($(this).hasClass('selected')){\n      $(this).removeClass('selected')\n    }else{\n    $('#summary-table-body tr').removeClass('selected');\n    $(this).addClass('selected');\n    }\n  })\n}\n\nfunction generateTableHead(){\n\n  var dataSort = [\"string-ins\",\"int\",\"int\",\"int\",\"float\",\"float\",\"int\",\"int\",\"int\",\"int\",\"int\",\"int\",\"int\",\"int\"];\n  var cellNames = [\"Requests\",\"Total\",\"OK\",\"KO\",\"% KO\",\"Req/s\",\"Min\",\"50th pct\",\"75th pct\",\"95th pct\",\"99th pct\",\"Max\",\"Average\",\"Std Dev\"];\n  tHead = $('<thead>')\n  tHead.attr(\"id\",\"summary-table-head\");\n  tRow = $('<tr>');\n\n  for (var i = 0; i < cellNames.length; i++){\n      tHeadCell = $('<th>');\n      tHeadCell.attr(\"data-sort\",dataSort[i]);\n      tHeadCell.html(cellNames[i]);\n      tRow.append(tHeadCell);\n  }\n  tHead.append(tRow);\n\n  return tHead;\n}\n\nfunction generateTableBody (requestNames){\n    \n    var tBody = $('<tbody>');\n    tBody.attr(\"id\",\"summary-table-body\");\n\n    for (var i = 0; i < requestNames.length; i++ ) {\n        tRow = $('<tr>');\n        for (var j = 0; j < CALCULATIONS.length; j++ ){\n            tCell = $('<td>');\n            if(j==0){\n              tCell.html(requestNames[i])\n            } \n            cellId = requestNames[i]+ '_' + CALCULATIONS[j];\n            tCell.attr(\"id\",cellId);\n            tRow.append(tCell);\n        }\n        tBody.append(tRow);\n    }\n\n    return tBody;\n}\n\nfunction showErrMessage(errMessage){\n  $(\"#summary\").empty();\n  message = $('<span>');\n  message.attr(\"id\",\"summary-table-message\");\n  message.text(errMessage)\n  $(\"#summary\").append(message);\n}\n\n// main function \nfunction onRefresh () {\n\n  queryOk = generateQuery('ok');\n  queryTotal = generateQuery('total')\n  queryAll = generateQuery('all');\n  \n  getOkMetrics(queryOk,queryTotal,queryAll);\n}\n\n\nfunction getDatasourceDBURL(){\n  return angular.element('grafana-app').injector().get('datasourceSrv').getAll().GatlingDB.url + '/query';\n}\n\nfunction getDatasourceDBName(){\n  return angular.element('grafana-app').injector().get('datasourceSrv').getAll().GatlingDB.database;\n}\n\nDB_NAME = \"perftest\"; //getDatasourceDBName()//\nEPOCH = \"ms\";\nDB_URL = \"http://10.192.122.105:7777/query\" //getDatasourceDBURL()\n\nCALCULATIONS = [\"request\", \"total\", \"ok\", \"ko\", \"ko_perc\",\"rps\", \"min\", \"median\", \"perc75\", \"perc95\", \"perc99\", \"max\", \"average\", \"stddev\"];\nTABLE_TIME_EPOCH = 's'; //s for seconds, any other value for milliseconds\n\n//threshold values\n\nLOWER_RT_TRESHOLD = 2000\nHIGHER_RT_TRESHOLD = 3000\nERROR_PERC_TRESHOLD = 1\nROUND_FLOAT_FACTOR = 2\n\nwindow.onload = onRefresh();\nangular.element('grafana-app').injector().get('$rootScope').$on('refresh',function(){onRefresh()});\n \n</script>\n<style type=\"text/css\">table[id=summary-table]>*>tr:hover{background:#292929}th[data-sort]{cursor:pointer}table[id=summary-table]>*>tr.selected{background:#292929;color:#d8d9da;font-weight:600}table[id=summary-table]{width:100%}#summary-table-message{display:table;margin-left:auto;margin-right:auto}#hidden{display:none}#red{color:#f64a4a}#yellow{color:#e9893a}#green{color:#37ad32}\n</style>\n\n\n<div id = \"summary\"></div>",
+            "id": 13,
+            "links": [],
+            "mode": "html",
+            "span": 12,
+            "title": "Summary Table",
+            "type": "text",
+            "targets": [],
+            "datasource": null
+          }
+        ],
+        "repeat": null,
+        "repeatIteration": null,
+        "repeatRowId": null,
+        "showTitle": true,
+        "title": "Summary Table",
+        "titleSize": "h6"
+      },
+      {
+        "collapse": false,
+        "height": 175,
+        "panels": [
+          {
+            "content": "<script type=\"text/javascript\" language=\"javascript\" src=\"//cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js\"/>\n<script>\nfunction formatTime(time){\n  if(time.includes(\"now\")){\n    time = time.replace(\"now\",\"now()\");\n    time = time.replace(\"-\",\" - \");\n    time = time.replace(\"/\",\" / \");\n  }else{\n    time = time + \"ms\";\n  }\n    return time;\n}\n\nfunction getFromTime(timeObj){\n  var from;\n  if(typeof timeObj.from == \"string\"){\n    from = timeObj.from;\n  }else{\n    from = timeObj.from._d.getTime().toString();\n  }\n return formatTime(from);\n}\n\nfunction getToTime(timeObj){\n  var to;\n  if(typeof timeObj.to == \"string\"){\n    to = timeObj.to;\n  }else{\n    to = timeObj.to._d.getTime().toString();\n  }\n  return formatTime(to);\n}\n\nfunction getTimeFilter(){\n  var time = angular.element('grafana-app').injector().get('timeSrv').time;\n  var from = getFromTime(time);\n  var to = getToTime(time);\n  var timeFilter = 'time > ' + from +' AND time < ' + to;\n\n  return timeFilter;\n}\n \nfunction getTemplateVar(varName){\n  var templateVars = angular.element('dashboard-submenu').injector().get('variableSrv').variables;\n    for (var i = 0; i < templateVars.length; i++) {\n        var tVar = templateVars[i];\n        if( tVar.name == varName){\n          return tVar;\n        } \n       }        \n  return null;\n}\n\nfunction getSimulationName (){\n  return getTemplateVar('simulation').current.value;\n}\n \nfunction getTestType(){\n  var testTypeObj = getTemplateVar('test_type');\n  var res = [];\n  var currentOption = (testTypeObj.current.value instanceof Array) ? testTypeObj.current.value[0] : testTypeObj.current.value;\n  if(currentOption == '$__all'){\n      var options = testTypeObj.options;\n      for(var i = 1; i < options.length; i++){res.push(options[i].text);}\n  }else if(testTypeObj.current.value instanceof Array){\n      var values = testTypeObj.current.value;\n      for(var i = 0; i < values.length; i++){res.push(values[i]);}\n  }else{res.push(currentOption);}\n \n  return res;\n}\n \nfunction getUserCount(){\n  var userCountObj = getTemplateVar('user_count');\n  var res = [];\n  var currentOption = (userCountObj.current.value instanceof Array) ? userCountObj.current.value[0] : userCountObj.current.value;\n  if(currentOption == '$__all'){\n    return res;\n  }else if(userCountObj.current.value instanceof Array){ \n    var values = userCountObj.current.value;\n    for(var i = 0; i < values.length; i++){res.push(values[i]);}\n  }else{res.push(currentOption);}\n  \n  return res;\n}\n\nfunction getEnvs(){\n  var envObj = getTemplateVar('env');\n  var res = [];\n  var currentOption = (envObj.current.value instanceof Array) ? envObj.current.value[0] : envObj.current.value;\n  if(currentOption == '$__all'){\n    return res;\n  }else if(envObj.current.value instanceof Array){ \n    var values = envObj.current.value;\n    for(var i = 0; i < values.length; i++){res.push(values[i]);}\n  }else{res.push(currentOption);}\n  \n  return res;\n}\n\nfunction generateErrTableQuery(queryType,errorTypes){\n  console.log('generate query')\n  var AND  = ' AND '\n  var WHERE = ' WHERE '\n  var GROUP_BY = ' GROUP BY error_code'\n  var query = '';\n  var timeFilter = getTimeFilter();\n  var testType = getTestType();\n  var simulation  =  getSimulationName();\n  var userCount = getUserCount();\n  var envs = getEnvs();\n\n    function appendTestTypeValues(arr){\n      var result = '';\n      if (arr.length == 1){\n        result = ' test_type= \\'' + arr[0] + '\\' ';\n        \n      }else{\n        result = ' test_type=~ /^(';\n        for (var i = 0; i < arr.length-1; i++){\n            result += (arr[i] + '|');    \n        }\n        result+=(arr[arr.length-1]+ ')/ ');\n      }\n      return result;\n    }\n\n    function appendValues(name,arr){\n      var result;\n      if(arr.length ==0){\n        result = '';\n      }else if (arr.length == 1){\n        result = name +'= \\'' + arr[0] + '\\' ';\n        result+=AND;\n      }else{\n        result = name +'=~ /^(';\n        for (var i = 0; i < arr.length-1; i++){\n            result += (arr[i] + '|');    \n        }\n        result+=(arr[arr.length-1]+ ')$/ ');\n        result+=AND;\n      }\n      return result;\n    }\n  testTypes = appendTestTypeValues(testType);\n  environments = appendValues('env',envs);\n  userCounts = appendValues('user_count',userCount);\n  simulation = ' simulation=\\'' + simulation + '\\'';\n\n  if(queryType == 'details'){\n    for(var i = 0; i < errorTypes.length; i++){\n      errorType = '\"error_type\" = \\'' + errorTypes[i] + '\\' ';\n      query += 'SELECT COUNT(error_type) AS error_count, FIRST(gatling_error) AS gatling_error, FIRST(request_url) AS request_url,FIRST(request_params) AS request_params,FIRST(headers) AS headers,FIRST(http_code) AS http_code,FIRST(response) AS response,FIRST(request_name) AS request_name FROM \"errors\" ' + WHERE + errorType + AND + simulation + AND + testTypes + AND + userCounts + environments + timeFilter + \"; \";\n      }  \n    }else{\n      query = 'SELECT COUNT(error_type) FROM \"errors\" ' + WHERE + simulation + AND + testTypes + AND + userCounts + environments +  timeFilter;\n      query +='; SELECT DISTINCT(error_type) AS error_type FROM \"errors\" ' + WHERE + simulation + AND + testTypes + AND + userCounts + environments + timeFilter;\n    }\n \n  return query;\n}\nfunction formatErrorDetails(str){\n    str = str.replace(/</g, '&lt');\n    str = str.replace(/>/g, '&gt');\n    return str;\n}\n//requests to DB\nfunction getDistinctErrorTypes(distinctErrorTypesQuery){\n  function getTotalErrorCount(data){\n    var series = data.results[0].series\n    var errorCount = 0;\n    if(typeof series != 'undefined'){\n      errorCount = series[0].values[0][1];\n    }\n    return errorCount\n  }\n\n  function getErrorTypes(data){\n     var series = data.results[1].series\n    if(typeof series == 'undefined'){\n        showErrorTableMessage(\"No error codes in errors database.\")\n     }else{\n        var errorTypes  = [];\n        var values = series[0].values;\n        for(var i = 0; i < values.length; i++){\n            errorTypes.push(values[i][1]);\n        }\n    }\n      return errorTypes        \n  }\n\n    $.get(DB_URL, { q: distinctErrorTypesQuery, db: DB_NAME, epoch: EPOCH},\n    function(data, status){\n          if(status == 'success'){\n                var totalErrorCount = getTotalErrorCount(data)\n                if(totalErrorCount > 0){\n                  var errorTypes  = getErrorTypes(data)\n                  getErrorDetails(errorTypes,totalErrorCount)\n                }else{\n                    showErrorTableMessage(\"No errors in selected timeframe. Change filter parameters.\")\n                }\n          }else{\n            showErrorTableMessage(\"Error occured during quering data. Check your datasource settings.\")\n          }\n    });\n}\n\nfunction generateDetailBox(request_name,gatling_error,gatling_error_short,request_url,request_params,request_header,http_code,response){\n  var box = \"<div class=\\\"accordeon\\\"><div class=\\\"accordeon-title\\\"><div id=\\\"title-wrapper\\\" data-title=\\\"\" + \n  gatling_error + \"\\\">\" + request_name  + \" error: \" + \n  gatling_error_short + \"</div></div><div class=\\\"accordeon-content\\\"><div class=\\\"separator\\\"><div id=\\\"detail-label\\\">Request URL:</div><div id=\\\"detail-data\\\">\" + \n  request_url+ \"</div></div><div class=\\\"separator\\\"><div id=\\\"detail-label\\\">Request params:</div><div id=\\\"detail-data\\\">\" + \n  request_params + \"</div></div><div class=\\\"separator\\\"><div id=\\\"detail-label\\\">Request headers:</div><div id=\\\"detail-data\\\">\" + \n  request_header + \"</div></div><div class=\\\"separator\\\"><div id=\\\"detail-label\\\">HTTP Code:</div><div id=\\\"detail-data\\\">\" + \n  http_code + \"</div></div><div class=\\\"separator\\\"><div id=\\\"detail-label\\\">Response:</div><div id=\\\"detail-data\\\">\" + \n  response + \"</div></div></div></div>\"\n\n  return box;\n}\n\nfunction getErrorDetails(errorTypes,totalErrorCount){\n    \n    function parseResponse(data){\n        var results = data.results;\n        for(var i = 0; i < results.length; i++){\n          var series = results[i].series\n          if(typeof series == 'undefined'){\n            showErrorTableMessage(\"Failed to retrieve error details.\")\n          }else{\n             \n            var values = series[0].values[0];\n            var errorCount = values[1];\n            //errorDetails = formatErrorDetails(values[2]);\n            var request_name = values[8];\n            var gatling_error = values[2];\n            var gatling_error_short  = values[2]\n            var request_url =  values[3];\n            var request_params = values[4];\n            var request_header = values[5];\n            var http_code = values[6];\n            var response = values[7];\n            var request_name = values[8];\n            var errorDetails = generateDetailBox(request_name,gatling_error,gatling_error_short,request_url,request_params,request_header,http_code,response);\n            var errorPercentage = ((100 * errorCount) / totalErrorCount).toFixed(2);\n            appendRow(errorDetails,errorCount,errorPercentage)\n          }\n      }\n    }\n    generateErrorTable();\n    query = generateErrTableQuery('details',errorTypes)\n    $.get(DB_URL, { q: query, db: DB_NAME, epoch: EPOCH},\n        function(data, status){\n          if(status == 'success'){\n            parseResponse(data)\n          }else{showErrorTableMessage(\"Error occured during quering data. Check your datasource settings.\")}\n    });\n \n}\n\nfunction appendRow(errorDetails,errorCount,errorPercentage){\n     $('#error-table').DataTable().row.add([errorDetails,errorCount,errorPercentage]).draw()\n     initAccordeon()\n}\n \nfunction initDataTable(table){\n     table.DataTable({\n            \"empty\": true,\n            \"lengthMenu\": [[5, 10, 20, -1], [5, 10, 20, \"All\"]],\n            \"order\": [[ 2, \"desc\" ]],\n            \"pagingType\": \"full_numbers\",\n            \"responsive\": true\n      });\n}\n\nfunction showErrorTableMessage(mess){\n    emptyErrorTable()\n    message = $('<span>');\n    message.attr(\"id\",\"errors-table-message\");\n    message.text(mess)\n    $(\"#errors\").append(message);\n}\n \nfunction emptyErrorTable(){\n  if($('#error-table').length > 0){\n      if ($.fn.DataTable.isDataTable('#error-table') ) {\n        $('#error-table').DataTable().destroy();\n    }\n  }\n   $(\"#errors\").empty();\n}\n\nfunction generateErrorTable(){\n  emptyErrorTable();\n  var table = $('<table>');\n  table.attr(\"id\",\"error-table\");\n  table.append(generateErrorTableHead());\n  table.append(generateErrorTableBody());\n  $('#errors').append(table);\n  initDataTable(table);\n  addSelectionFeature();\n}\n\nfunction initAccordeon(){\n  $('.accordeon-title').on('click',function(){\n    var title = $(this);\n    if(title.hasClass('is-opened')){\n        title.next('.accordeon-content').slideUp(function(){\n        $(this).prev('.accordeon-title').removeClass('is-opened');\n      })\n    }else{\n      var content = title.next('.accordeon-content'); \n      if (!content.is(':visible')) {\n        content.slideDown(function(){title.addClass('is-opened')});\n      } \n    }\n  })\n  $('div[id=\"error-table_wrapper\"]').change(function(){initAccordeon()})\n  $('#error-table_paginate a').click(function(){initAccordeon()})\n}\n\nfunction generateErrorTableHead(){\n      var cellNames = [\"Error Details\",\"Count\",\"Percentage\"];\n      tHead = $('<thead>')\n      tHead.attr(\"id\",\"error-table-head\");\n      tRow = $('<tr>');\n      for (var i = 0; i < cellNames.length; i++){\n          tHeadCell = $('<th>');\n          tHeadCell.text(cellNames[i])\n          tRow.append(tHeadCell);\n      }\n      tHead.append(tRow);\n\n      return tHead;\n}\nfunction addSelectionFeature(){\n    var table = $('#error-table').DataTable();\n    $('#error-table tbody').on( 'click', 'tr', function () {\n        if ($(this).hasClass('selected')) {\n            $(this).removeClass('selected');\n        }\n        else {\n            table.$('tr.selected').removeClass('selected');\n            $(this).addClass('selected');\n        }\n    } );\n \n    $('#button').click( function () {\n        table.row('.selected').remove().draw( false );\n    } );\n}\n\nfunction generateErrorTableBody(){\n    var tBody = $('<tbody>');\n    tBody.attr(\"id\",\"error-table-body\");\n\n    return tBody;\n}\n\nfunction checkDataTableIsLoaded(){\n  if($.fn.DataTable){\n    var query = generateErrTableQuery()\n    getDistinctErrorTypes(query)\n  }else{\n    setTimeout(function() { checkDataTableIsLoaded()}, 500);\n  }\n}\n \nfunction onPageRefresh (){\n    checkDataTableIsLoaded()\n}\n\nfunction getDatasourceDBURL(){\n  return angular.element('grafana-app').injector().get('datasourceSrv').getAll().GatlingDB.url + '/query';\n}\n\nfunction getDatasourceDBName(){\n  return angular.element('grafana-app').injector().get('datasourceSrv').getAll().GatlingDB.database;\n}\n\nDB_NAME = \"perftest\"; //getDatasourceDBName()//\nEPOCH = \"ms\";\nDB_URL = \"http://10.192.122.105:7777/query\" //getDatasourceDBURL()\n\n$(document).ready(function(){\nonPageRefresh ();\n});\n\nangular.element('grafana-app').injector().get('$rootScope').$on('refresh',function(){onPageRefresh ()});\n\n</script>\n<style>\n #error-table_filter,.dataTables_length{display:inline-block}.dataTables_length{padding-bottom:20px;padding-right:23px}input[type=search]{border-radius:5px}select[name=error-table_length]{height:23px;width:65px;border-radius:5px}.paging_full_numbers>a,.paging_full_numbers>span>a{padding-right:10px}#errors-table-message{display:table;margin-left:auto;margin-right:auto}#error-table{width:100%}th{text-align:center}table[id=error-table]>*>tr>td:nth-child(1){width:90%;word-break:break-all}table[id=error-table]>*>tr>td:nth-child(2),table[id=error-table]>*>tr>td:nth-child(3){width:5%;text-align:center}\n.accordeon {\n  width: 100%;\n font-family: helvetica, sans-serif;\n  margin: -7px;\n    margin-left: 0px;}\n.accordeon-title {\n    background-color: #1f1d1d;\n    padding-top: 10px;\n    cursor: pointer;\n    padding-bottom: 10px;\n}\n.accordeon-title:before {\n  content: \"+\";\n  float: left;\n  font-size: 20px;\n  color: #f2f2f2;\n  border: 1px solid #f2f2f2;\n  width: 20px;\n  height: 20px;\n  line-height: 17px;\n  text-align: center;\n  margin-right: 10px;\n}\n\n.accordeon-title.is-opened:before {\n  content: \"-\";\n}\n \ntable[class=error-details-table]>*>tr>td:nth-child(1){\n  width:12%;\n  border-right-color: white;\n\n}\n.accordeon-content>.separator:last-child{\n  border-bottom: 0px;\n  margin-bottom: 0px;\n}\ntable[class=error-details-table]{\n    border: none;\n}\n.accordeon-content {\n  display: none;\n  padding-left: 20px;\n  padding-bottom:10px;\n} \n#detail-label{\n  display: inline-block;\n    vertical-align: top;\n    width: 10%;\n    max-width: 135px;\n    word-break: break-word;\n    padding: 10px;\n    border-right: 1px solid #292929;\n}\n#detail-data{\n    border-left: 1px solid #292929;\n    display: inline-block;\n    word-break: break-all;\n    padding: 10px;\n    width: 90%;\n    margin-left: -1px;\n    max-height: 75px;\n    overflow: hidden;\n}\n#title-wrapper{\n  height: 20px;\n  overflow: hidden;\n}\n.separator{\n  display:block;\n  border-bottom: 1px solid #292929;\n  margin-bottom: -7px;\n}\n</style>\n<div id = \"errors\"></div>",
+            "id": 14,
+            "links": [],
+            "mode": "html",
+            "span": 12,
+            "title": "Error Table",
+            "type": "text",
+            "targets": [],
+            "datasource": null
+          }
+        ],
+        "repeat": null,
+        "repeatIteration": null,
+        "repeatRowId": null,
+        "showTitle": true,
+        "title": "Error Table",
+        "titleSize": "h6"
+      },
+      {
+        "collapse": false,
+        "height": 415,
+        "panels": [
+          {
+            "aliasColors": {},
+            "bars": false,
+            "datasource": null,
+            "fill": 1,
+            "height": "460px",
+            "id": 15,
+            "legend": {
+              "alignAsTable": false,
+              "avg": false,
+              "current": false,
+              "max": false,
+              "min": false,
+              "rightSide": false,
+              "show": true,
+              "total": false,
+              "values": false
+            },
+            "lines": true,
+            "linewidth": 1,
+            "links": [],
+            "minSpan": 12,
+            "nullPointMode": "null",
+            "percentage": false,
+            "pointradius": 5,
+            "points": false,
+            "renderer": "flot",
+            "repeat": null,
+            "scopedVars": {
+              "request_name": {
+                "selected": true,
+                "text": "big_article",
+                "value": "big_article"
+              }
+            },
+            "seriesOverrides": [
+              {
+                "alias": "users.mean",
+                "yaxis": 2
+              },
+              {
+                "alias": "active users",
+                "yaxis": 2
+              },
+              {
+                "alias": "$request_name request count",
+                "lines": false,
+                "points": true
+              }
+            ],
+            "span": 7,
+            "stack": false,
+            "steppedLine": false,
+            "targets": [],
+            "thresholds": [
+              {
+                "colorMode": "ok",
+                "fill": false,
+                "line": true,
+                "op": "lt",
+                "value": 2000
+              },
+              {
+                "colorMode": "warning",
+                "fill": false,
+                "line": true,
+                "op": "lt",
+                "value": 3000
+              },
+              {
+                "colorMode": "critical",
+                "fill": true,
+                "line": true,
+                "op": "gt",
+                "value": 3000
+              }
+            ],
+            "timeFrom": null,
+            "timeShift": null,
+            "title": "$request_name response times over time ($req_status)",
+            "tooltip": {
+              "shared": false,
+              "sort": 0,
+              "value_type": "individual"
+            },
+            "transparent": false,
+            "type": "graph",
+            "xaxis": {
+              "mode": "time",
+              "name": null,
+              "show": true,
+              "values": [
+                "total"
+              ]
+            },
+            "yaxes": [
+              {
+                "format": "ms",
+                "label": "Response time ",
+                "logBase": 1,
+                "max": null,
+                "min": "0",
+                "show": true
+              },
+              {
+                "format": "short",
+                "label": "",
+                "logBase": 1,
+                "max": null,
+                "min": "0",
+                "show": true
+              }
+            ]
+          },
+          {
+            "aliasColors": {
+              "active users": "#6ED0E0",
+              "all requests": "#1F78C1",
+              "big_article ko": "#BF1B00",
+              "big_article ko requests": "#BF1B00",
+              "big_article ok": "#7EB26D",
+              "big_article ok requests": "#7EB26D",
+              "content_ref_bin ko requests": "#BF1B00",
+              "content_ref_bin ok requests": "#7EB26D",
+              "content_ref_redirect ko requests": "#BF1B00",
+              "content_ref_redirect ok requests": "#7EB26D",
+              "content_refs ko requests": "#BF1B00",
+              "content_refs ok requests": "#7EB26D",
+              "content_search ko requests": "#BF1B00",
+              "content_search ok requests": "#7EB26D",
+              "find_people_id ko requests": "#BF1B00",
+              "find_people_id ok requests": "#7EB26D",
+              "ko requests": "#BF1B00",
+              "ok  requests": "#508642",
+              "ok requests": "#7EB26D",
+              "search_org_code ko requests": "#BF1B00",
+              "search_org_code ok requests": "#7EB26D",
+              "search_realtime ko requests": "#BF1B00",
+              "search_realtime ok requests": "#7EB26D",
+              "search_reference ko requests": "#BF1B00",
+              "search_reference ok requests": "#7EB26D",
+              "typical_acticle ko": "#BF1B00",
+              "typical_acticle ko requests": "#BF1B00",
+              "typical_acticle ok": "#7EB26D",
+              "typical_acticle ok requests": "#7EB26D"
+            },
+            "bars": true,
+            "datasource": null,
+            "fill": 1,
+            "height": "225px",
+            "id": 16,
+            "legend": {
+              "alignAsTable": false,
+              "avg": false,
+              "current": false,
+              "max": false,
+              "min": false,
+              "show": true,
+              "total": false,
+              "values": false
+            },
+            "lines": false,
+            "linewidth": 1,
+            "links": [],
+            "nullPointMode": "null",
+            "percentage": false,
+            "pointradius": 5,
+            "points": false,
+            "renderer": "flot",
+            "scopedVars": {
+              "request_name": {
+                "selected": true,
+                "text": "big_article",
+                "value": "big_article"
+              }
+            },
+            "seriesOverrides": [
+              {
+                "alias": "all requests",
+                "stack": false
+              },
+              {
+                "alias": "/.* ok requests/",
+                "color": "#7EB26D"
+              },
+              {
+                "alias": "/.* ko requests/",
+                "color": "#BF1B00"
+              }
+            ],
+            "span": 5,
+            "stack": true,
+            "steppedLine": false,
+            "targets": [],
+            "thresholds": [],
+            "timeFrom": null,
+            "timeShift": null,
+            "title": "$request_name throughput",
+            "tooltip": {
+              "shared": true,
+              "sort": 0,
+              "value_type": "individual"
+            },
+            "transparent": false,
+            "type": "graph",
+            "xaxis": {
+              "mode": "time",
+              "name": null,
+              "show": true,
+              "values": []
+            },
+            "yaxes": [
+              {
+                "format": "short",
+                "label": "Requests per second",
+                "logBase": 1,
+                "max": null,
+                "min": "0",
+                "show": true
+              },
+              {
+                "format": "short",
+                "label": "",
+                "logBase": 1,
+                "max": null,
+                "min": "0",
+                "show": true
+              }
+            ]
+          },
+          {
+            "aliasColors": {
+              "t > %(high_limit)s ms": "#C15C17",
+              "%(low_limit)s < t < %(high_limit)s": "#ffad33",
+              "t < %(low_limit)s ms": "#7EB26D",
+              "failed": "#BF1B00"
+            },
+            "bars": true,
+            "datasource": null,
+            "fill": 1,
+            "height": "225px",
+            "id": 17,
+            "interval": "",
+            "legend": {
+              "alignAsTable": true,
+              "avg": false,
+              "current": false,
+              "hideEmpty": false,
+              "hideZero": false,
+              "max": false,
+              "min": false,
+              "rightSide": true,
+              "show": true,
+              "total": true,
+              "values": true
+            },
+            "lines": false,
+            "linewidth": 1,
+            "links": [],
+            "nullPointMode": "null",
+            "percentage": false,
+            "pointradius": 5,
+            "points": false,
+            "renderer": "flot",
+            "scopedVars": {
+              "request_name": {
+                "selected": true,
+                "text": "big_article",
+                "value": "big_article"
+              }
+            },
+            "seriesOverrides": [
+              {
+                "alias": "t > $high_limit ms",
+                "color": "#E24D42"
+              },
+              {
+                "alias": "failed",
+                "color": "#BF1B00"
+              }
+            ],
+            "span": 5,
+            "stack": false,
+            "steppedLine": false,
+            "targets": [],
+            "thresholds": [],
+            "timeFrom": null,
+            "timeShift": null,
+            "title": "$request_name response times distribution",
+            "tooltip": {
+              "shared": false,
+              "sort": 0,
+              "value_type": "individual"
+            },
+            "type": "graph",
+            "xaxis": {
+              "mode": "series",
+              "name": null,
+              "show": true,
+              "values": [
+                "total"
+              ]
+            },
+            "yaxes": [
+              {
+                "format": "short",
+                "label": "Request count",
+                "logBase": 1,
+                "max": null,
+                "min": null,
+                "show": true
+              },
+              {
+                "format": "short",
+                "label": "",
+                "logBase": 1,
+                "max": null,
+                "min": null,
+                "show": true
+              }
+            ]
+          }
+        ],
+        "repeat": "request_name",
+        "repeatIteration": null,
+        "repeatRowId": null,
+        "showTitle": true,
+        "title": "Detailed results for $request_name",
+        "titleSize": "h6"
+      }
+    ],
+    "schemaVersion": 14,
+    "style": "dark",
+    "tags": [
+      "content",
+      "benchmark",
+      "fixed load"
+    ],
+    "templating": {
+      "list": [
+        {
+          "current": {
+            "selected": true,
+            "text": "2000",
+            "value": "2000"
+          },
+          "hide": 2,
+          "label": "low_limit",
+          "name": "low_limit",
+          "options": {
+            "selected": true,
+            "text": "2000",
+            "value": "2000"
+          },
+          "query": "",
+          "type": "constant",
+          "refresh": false
+        },
+        {
+          "current": {
+            "selected": true,
+            "text": "3000",
+            "value": "3000"
+          },
+          "hide": 2,
+          "label": "high_limit",
+          "name": "high_limit",
+          "options": {
+            "selected": true,
+            "text": "3000",
+            "value": "3000"
+          },
+          "query": "",
+          "type": "constant",
+          "refresh": false
+        },
+        {
+          "allValue": "",
+          "current": {
+            "selected": true,
+            "tags": [],
+            "text": "big_article",
+            "value": [
+              "big_article"
+            ]
+          },
+          "datasource": "GatlingDB",
+          "hide": 0,
+          "includeAll": true,
+          "label": "Request name",
+          "multi": true,
+          "name": "request_name",
+          "options": {
+            "selected": true,
+            "tags": [],
+            "text": "big_article",
+            "value": [
+              "big_article"
+            ]
+          },
+          "query": "",
+          "refresh": false,
+          "regex": "^(?!allRequests$).*",
+          "sort": 1,
+          "tagValuesQuery": "",
+          "tags": [],
+          "tagsQuery": "",
+          "type": "query",
+          "useTags": false
+        },
+        {
+          "allValue": null,
+          "current": {
+            "selected": true,
+            "text": "percentiles95",
+            "value": "percentiles95"
+          },
+          "datasource": "GatlingDB",
+          "hide": 0,
+          "includeAll": false,
+          "label": "Calculation",
+          "multi": false,
+          "name": "calculation",
+          "options": {
+            "selected": true,
+            "text": "percentiles95",
+            "value": "percentiles95"
+          },
+          "query": "",
+          "refresh": false,
+          "regex": "^(?!count|active|done|waiting|stdDev$).*",
+          "sort": 0,
+          "tagValuesQuery": "",
+          "tags": [],
+          "tagsQuery": "",
+          "type": "query",
+          "useTags": false
+        },
+        {
+          "allValue": "blank=all",
+          "current": {
+            "selected": true,
+            "text": "all",
+            "value": "all"
+          },
+          "datasource": "GatlingDB",
+          "hide": 0,
+          "includeAll": false,
+          "label": "Request status",
+          "multi": false,
+          "name": "req_status",
+          "options": {
+            "selected": true,
+            "text": "all",
+            "value": "all"
+          },
+          "query": "",
+          "refresh": false,
+          "regex": "(all|ok|ko)",
+          "sort": 0,
+          "tagValuesQuery": "",
+          "tags": [],
+          "tagsQuery": "",
+          "type": "query",
+          "useTags": false
+        },
+        {
+          "allValue": "",
+          "current": {
+            "tags": [],
+            "text": "capacity",
+            "value": [
+              "capacity"
+            ]
+          },
+          "datasource": "GatlingDB",
+          "hide": 0,
+          "includeAll": true,
+          "label": "Test type",
+          "multi": true,
+          "name": "test_type",
+          "options": {
+            "tags": [],
+            "text": "capacity",
+            "value": [
+              "capacity"
+            ]
+          },
+          "query": "",
+          "refresh": false,
+          "regex": "^(?!users|errors$).*",
+          "sort": 0,
+          "tagValuesQuery": "",
+          "tags": [],
+          "tagsQuery": "",
+          "type": "query",
+          "useTags": false
+        },
+        {
+          "allValue": "",
+          "current": {
+            "tags": [],
+            "text": "1 + 1250",
+            "value": [
+              "1",
+              "1250"
+            ]
+          },
+          "datasource": "GatlingDB",
+          "hide": 0,
+          "includeAll": true,
+          "label": "User count",
+          "multi": true,
+          "name": "user_count",
+          "options": {
+            "tags": [],
+            "text": "1 + 1250",
+            "value": [
+              "1",
+              "1250"
+            ]
+          },
+          "query": "",
+          "refresh": false,
+          "regex": "",
+          "sort": 0,
+          "tagValuesQuery": "",
+          "tags": [],
+          "tagsQuery": "",
+          "type": "query",
+          "useTags": false
+        },
+        {
+          "allValue": "",
+          "current": {
+            "selected": true,
+            "text": "content",
+            "value": "content"
+          },
+          "datasource": "GatlingDB",
+          "hide": 0,
+          "includeAll": false,
+          "label": "Simulation",
+          "multi": false,
+          "name": "simulation",
+          "options": {
+            "selected": true,
+            "text": "content",
+            "value": "content"
+          },
+          "query": "",
+          "refresh": false,
+          "regex": "",
+          "sort": 0,
+          "tagValuesQuery": "",
+          "tags": [],
+          "tagsQuery": "",
+          "type": "query",
+          "useTags": false
+        },
+        {
+          "allValue": ".*",
+          "current": {
+            "text": "papi-2-r53-stag-build-pib + platformapis-stag",
+            "value": [
+              "papi-2-r53-stag-build-pib",
+              "platformapis-stag"
+            ]
+          },
+          "datasource": "GatlingDB",
+          "hide": 0,
+          "includeAll": true,
+          "label": "Environment",
+          "multi": true,
+          "name": "env",
+          "options": {
+            "text": "papi-2-r53-stag-build-pib + platformapis-stag",
+            "value": [
+              "papi-2-r53-stag-build-pib",
+              "platformapis-stag"
+            ]
+          },
+          "query": "",
+          "refresh": false,
+          "regex": "",
+          "sort": 0,
+          "tagValuesQuery": "",
+          "tags": [],
+          "tagsQuery": "",
+          "type": "query",
+          "useTags": false
+        }
+      ]
+    },
+    "time": {
+      "from": "2017-03-29T12:02:07.463Z",
+      "to": "2017-03-29T12:02:56.586Z",
+      "raw": {
+        "from": "2017-03-29T12:02:07.463Z",
+        "to": "2017-03-29T12:02:56.586Z"
+      }
+    },
+    "timepicker": {
+      "refresh_intervals": [
+        "1s",
+        "5s",
+        "10s",
+        "30s",
+        "1m",
+        "5m",
+        "15m",
+        "30m",
+        "1h",
+        "2h",
+        "1d"
+      ],
+      "time_options": [
+        "5m",
+        "15m",
+        "1h",
+        "6h",
+        "12h",
+        "24h",
+        "2d",
+        "7d",
+        "30d"
+      ]
+    },
+    "timezone": "browser",
+    "title": "DEBUG Content API Fixed Load Test",
+    "version": 433
+  },
+  "name": "DEBUG Content API Fixed Load Test",
+  "expires": 0
+}

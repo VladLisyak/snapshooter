@@ -1,0 +1,1 @@
+To create new template with corresponding chart colors you need to replace aliasColors
